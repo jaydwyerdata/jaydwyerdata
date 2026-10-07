@@ -16,6 +16,12 @@ And one for range:
 |---|---|---|
 | [Listening Lens](https://github.com/jaydwyerdata/listening-lens) ([demo video](https://youtu.be/dOxFxmPNGrs)) | Eight years of my Spotify history as a Snowflake Native App, including the consumer bind path through references | Native Apps Framework, Streamlit in Snowflake, Cortex AI |
 
+And reusable patterns, packaged as agent skills:
+
+| Skill | What it does | Built with |
+|---|---|---|
+| [Snapshot CDC delta pattern](https://github.com/jaydwyerdata/snowflake-skills/tree/main/snowflake-cdc-delta-pattern) | Turns a curated view into an append-only, action-tagged delta table for reverse ETL, with field-level change history, deletes and retention built in. Worked example verified live | Snowflake Scripting, tasks, Cortex Code skills |
+
 ## How I build
 
 - **Problem first.** Every project starts from a real problem and documents the decisions behind it, not just the code.
