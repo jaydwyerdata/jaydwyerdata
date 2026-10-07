@@ -14,7 +14,7 @@ And one for range:
 
 | Project | What it does | Built with |
 |---|---|---|
-| Listening Lens *(repo and demo video coming soon)* | Eight years of my Spotify history as a Snowflake Native App, including the consumer bind path through references | Native Apps Framework, Streamlit in Snowflake, Cortex AI |
+| [Listening Lens](https://github.com/jaydwyerdata/listening-lens) ([demo video](https://youtu.be/dOxFxmPNGrs)) | Eight years of my Spotify history as a Snowflake Native App, including the consumer bind path through references | Native Apps Framework, Streamlit in Snowflake, Cortex AI |
 
 ## How I build
 
