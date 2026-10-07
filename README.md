@@ -21,6 +21,7 @@ And reusable patterns, packaged as agent skills:
 | Skill | What it does | Built with |
 |---|---|---|
 | [Snapshot CDC delta pattern](https://github.com/jaydwyerdata/snowflake-skills/tree/main/snowflake-cdc-delta-pattern) | Turns a curated view into an append-only, action-tagged delta table for reverse ETL, with field-level change history, deletes and retention built in. Worked example verified live | Snowflake Scripting, tasks, Cortex Code skills |
+| [Row access mapping pattern](https://github.com/jaydwyerdata/snowflake-skills/tree/main/snowflake-row-access-mapping) | Row-level security for one shared table: mapping table plus row access policy, CSV onboarding and offboarding with validation and an audit trail, and a governed copy that survives the source table being rebuilt. Both worked examples verified live | Row access policies, Snowflake Scripting, tasks, Cortex Code skills |
 
 ## How I build
 
