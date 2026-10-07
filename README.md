@@ -6,7 +6,7 @@ My recent builds explore one theme: **right-sized data governance** for teams th
 
 | Stage | Project | What it does | Built with |
 |---|---|---|---|
-| **Capture** | [Requirements Accelerator](https://github.com/jaydwyerdata/requirements-accelerator) | A self-serve interview that turns a vague data request into a plain-language business ask and a technical spec, and says honestly whether it's ready to build | Python, Streamlit in Snowflake, Cortex AI |
+| **Capture** | [Requirements Accelerator](https://github.com/jaydwyerdata/requirements-accelerator) ([demo video](https://youtu.be/bQh05tJXABo)) | A self-serve interview that turns a vague data request into a plain-language business ask and a technical spec, and says honestly whether it's ready to build | Python, Streamlit in Snowflake, Cortex AI |
 | **Use** | meaning-to-semantic-view *(in progress)* | Captures what business terms actually mean, in the experts' own words, and turns it into a validated Snowflake semantic view | Semantic views, Cortex Analyst, Snowpark |
 | **Share** | *(next)* | Governed external sharing with row access policies | Secure sharing, row access policies |
 
