@@ -7,8 +7,8 @@ My recent builds explore one theme: **right-sized data governance** for teams th
 | Stage | Project | What it does | Built with |
 |---|---|---|---|
 | **Capture** | [Requirements Accelerator](https://github.com/jaydwyerdata/requirements-accelerator) ([demo video](https://youtu.be/bQh05tJXABo)) | A self-serve interview that turns a vague data request into a plain-language business ask and a technical spec, and says honestly whether it's ready to build | Python, Streamlit in Snowflake, Cortex AI |
-| **Use** | meaning-to-semantic-view *(in progress)* | Captures what business terms actually mean, in the experts' own words, and turns it into a validated Snowflake semantic view | Semantic views, Cortex Analyst, Snowpark |
-| **Share** | *(next)* | Governed external sharing with row access policies | Secure sharing, row access policies |
+| **Use** | [meaning-to-semantic-view](https://github.com/jaydwyerdata/meaning-to-semantic-view) ([demo video](https://youtu.be/pExtk1yjLrg)) | Captures what a business term means in the expert's own words, has Cortex map it onto a messy estate with evidence, and generates a semantic view checked against an independent query. One term so far | Semantic views, Cortex AI_COMPLETE, Streamlit in Snowflake, Snowpark |
+| **Share** | [Row access mapping pattern](https://github.com/jaydwyerdata/snowflake-skills/tree/main/snowflake-row-access-mapping) | Governed external sharing: a mapping table and row access policy decide which roles see which rows, so each group, including live BI connections, sees only its own slice | Row access policies, Snowflake Scripting, tasks, Cortex Code skills |
 
 And one for range:
 
