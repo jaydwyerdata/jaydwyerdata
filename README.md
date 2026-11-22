@@ -22,6 +22,12 @@ And reusable patterns, packaged as agent skills:
 |---|---|---|
 | [Snapshot CDC delta pattern](https://github.com/jaydwyerdata/snowflake-skills/tree/main/snowflake-cdc-delta-pattern) | Turns a curated view into an append-only, action-tagged delta table for reverse ETL, with field-level change history, deletes and retention built in. Worked example verified live | Snowflake Scripting, tasks, Cortex Code skills |
 
+Latest build (repo to follow):
+
+| Project | What it does | Built with |
+|---|---|---|
+| dbt + DCM on Snowflake ([demo video](https://youtu.be/OuemAJpE0r8)) | Runs a dbt project natively in Snowflake, with the surrounding objects declared and deployed through a DCM project, so the pipeline and its infrastructure ship from code | dbt Projects on Snowflake, DCM Projects, Snowflake CLI |
+
 ## How I build
 
 - **Problem first.** Every project starts from a real problem and documents the decisions behind it, not just the code.
